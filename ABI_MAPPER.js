@@ -360,4 +360,4 @@ exports.initialize = async (abi_dir)=>{
 	let _data = parseFloat(CHAINS[process.argv[2].toString()]);
 	console.log("chain_id: ",_data);
 	let read_abi_dir = await readDir(abi_dir,stacks,check);
-}; exports.initialize("../abi/");
+}; exports.initialize("./abi/");
